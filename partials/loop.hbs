@@ -5,6 +5,7 @@
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
+    <div class="post-excerpt">{{excerpt}}</div>
     <footer class="post-meta">
         {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
         {{author}}
